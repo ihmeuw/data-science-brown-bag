@@ -2,8 +2,10 @@
 
 ## The basics
 - Everyone is invited
+    - No prior knowledge or experience expected!
 - Zero commitment
     - (Unless you're presenting...)
+    - Topics will be posted by Monday, so you can decide whether it's useful to you
 - _Quick_ intros to a topic
     - What is it?
     - Why do you think it's cool?
