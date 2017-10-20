@@ -22,7 +22,7 @@ install.packages("rmarkdown")
 ```
 2. Create a new RMarkdown Document
 ```
-File => Document => New RMarkdown Document
+File => New File => RMarkdown Document
 ```
 3. Change default headings etc., import data, and start using it!
 
@@ -43,8 +43,8 @@ File => Document => New RMarkdown Document
 
 
 # Where can I learn more about `RMarkdown`?
-Basics: [http://rmarkdown.rstudio.com/authoring_basics.html]
-Cheatsheet: [https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf]
+- Basics: [http://rmarkdown.rstudio.com/authoring_basics.html]
+- Cheatsheet: [https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf]
 
 # Notes
 
