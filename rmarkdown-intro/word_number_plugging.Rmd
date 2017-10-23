@@ -3,12 +3,12 @@ title: "Example Number Plugging"
 author: "Grant Nguyen"
 date: "10/20/2017"
 output:
-  html_document: null
-  word_document:
-    fig_caption: yes
+  html_document:
+    df_print: paged
   pdf_document:
     fig_caption: yes
-always_allow_html: yes
+  word_document:
+    fig_caption: yes
 ---
 
 ```{r setup, include=FALSE}
