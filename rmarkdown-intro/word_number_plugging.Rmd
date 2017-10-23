@@ -3,11 +3,11 @@ title: "Example Number Plugging"
 author: "Grant Nguyen"
 date: "10/20/2017"
 output:
+  word_document:
+    fig_caption: yes
   html_document:
     df_print: paged
   pdf_document:
-    fig_caption: yes
-  word_document:
     fig_caption: yes
 ---
 
@@ -103,17 +103,26 @@ setorder(top10_rates_male, -val)
 top10_rates_male <- top10_rates_male[1:10]
 
 top10_rates_male <- data[location_name %in% unique(top10_rates_male$location_name) & sex == "Male" & metric_name == "Rate"]
-png("input_data/male_death_rate.png")
-ggplot(top10_rates_male) +
-  geom_line(aes(x = year_id, y = val, color = location_name)) +
-  xlab("Year") +
-  ylab("Cyclist Deaths Per 100,000")
-dev.off()
+
+graph_rates <- function() {
+  ggplot(top10_rates_male) +
+    geom_line(aes(x = year_id, y = val, color = location_name)) +
+    xlab("Year") +
+    ylab("Cyclist Deaths Per 100,000")
+}
+
+ggsave("input_data/male_death_rate.png",
+       graph_rates(),
+       width = 7,
+       height = 3,
+       dpi = 600)
 ```
 
 And here is the PNG (sourced directly from the PNG file)
 
-![Male Death Rate: 2010 Cycling Road Injuries](input_data/male_death_rate.png)
+![Male Death Rate Per 100,000: 2010 Cycling Road Injuries](input_data/male_death_rate.png)
+
+More detail on plots can be found at this wonderful sloth-related website: <http://www.zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/>.
 
 ## LaTeX
 
