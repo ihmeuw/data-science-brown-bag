@@ -31,3 +31,4 @@
 | 2017-10-27 | RMarkdown (Grant Nguyen)   |  |
 | 2017-11-17 | Submitting array jobs (Kendrick Tang)   | |
 | 2017-12-08 | git tricks (Alec Deason)   | |
+| 2018-01-05 | Regular Expressions (Falko Goettsch | |
