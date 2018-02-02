@@ -65,8 +65,8 @@ hello_you() {
 some of which can be optional if you want
 ```bash
 hello_yall() {
-  if [ -z "$2" ]
-	then other="friends"
+    if [ -z "$2" ]
+    then other="friends"
 	else other="$2"
 	fi
 	echo "Hello, $1 and $other"
@@ -123,11 +123,11 @@ The best tutorial I've seen on `awk` is [this one](http://www.grymoire.com/Unix/
 A function to find out how many of each type of job you - or someone else - has running or queued up on the cluster:
 ```bash
 job_stats() { 
-	if [ -z "$1" ]
-  then U=$USER
-  else U=$1
-  fi
-  echo `qstat -u $U | sed 1,2d | awk '{ print $5 }' | sort | uniq -c` 
+    if [ -z "$1" ]
+    then U=$USER
+    else U=$1
+    fi
+    echo `qstat -u $U | sed 1,2d | awk '{ print $5 }' | sort | uniq -c` 
 }
 ```
 ### kill em all
