@@ -33,4 +33,4 @@
 | 2017-12-08 | git tricks (Alec Deason)   | |
 | 2018-01-05 | Regular Expressions (Falko Goettsch) | |
 | 2018-02-02 | Command Line (Kyle Foreman) | |
-| 2018-02-16 | Command Line, pt. 2 (Falko Goettsch) | |
+| 2018-02-16 | Command Line Crash Course (Falko Goettsch) | | 
