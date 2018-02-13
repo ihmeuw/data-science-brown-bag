@@ -33,4 +33,5 @@
 | 2017-12-08 | git tricks (Alec Deason)   | |
 | 2018-01-05 | Regular Expressions (Falko Goettsch) | |
 | 2018-02-02 | Command Line for Data Science (Kyle Foreman) | |
-| 2018-02-16 | Command Line Crash Course - Life on the Command Line (Falko Goettsch) | | 
+| 2018-02-16 | Automatically Mapping Verbal Autopsy Interviews (Abie Flaxman)| | 
+| 2018-03-02 | Command Line Crash Course - Life on the Command Line (Falko Goettsch) | | 
