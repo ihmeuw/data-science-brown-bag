@@ -35,5 +35,5 @@
 | 2018-02-02 | Command Line for Data Science (Kyle Foreman) | |
 | 2018-02-16 | Automatically Mapping Verbal Autopsy Interviews (Abie Flaxman)| | 
 | 2018-03-02 | Command Line Crash Course - Life on the Command Line (Falko Goettsch) | | 
-| 2018-03-31 | Setting up Linux Environment Panel | | 
+| 2018-03-31 | Setting up Linux Environment Panel (Kendrick, Alec, David, and Grant) | | 
 | 2018-04-27 | Using awk & sed (Falko) | | 
